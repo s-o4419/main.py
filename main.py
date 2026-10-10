@@ -32,9 +32,12 @@ def forward():
             canvas.move(obot, 20, 0)
 
             # Movement buttons
+tk.Button(window, text="Forward ", command=forward).pack()
+tk.Button(window, text="left ", command=left).pack(side="left", padx=65)
+tk.Button(window, text="Right ", command=right).pack(side="right", padx=65)
+tk.Button(window, text="Backward , command=backward").pack()
 
-
-        def left():
-            canvas.move(robot, -20, 0)
+# Run the application 
+window.mainloop() 
 
             
