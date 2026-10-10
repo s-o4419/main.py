@@ -24,6 +24,15 @@ def forward():
 
     def backward():
         canvas.move(robot, 0, 20)
+        
+        def left():
+            canvas.move(robot, -20, 0)
+
+        def right():
+            canvas.move(obot, 20, 0)
+
+            # Movement buttons
+
 
         def left():
             canvas.move(robot, -20, 0)
