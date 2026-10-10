@@ -17,3 +17,15 @@ canvas.pack(pady=10)
 robot = canvas.create_rectangle(
     x, y, x + 40, y + 40, fill="blue"
 )
+
+# Movement functions
+def forward():
+    canvas.move(robot, 0, -20)
+
+    def backward():
+        canvas.move(robot, 0, 20)
+
+        def left():
+            canvas.move(robot, -20, 0)
+
+            
